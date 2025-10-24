@@ -71,7 +71,7 @@ brush-interactive = { version = "^0.2.22", path = "../brush-interactive", featur
     "basic",
     "reedline",
 ] }
-crossterm = "0.29.0"
+crossterm = "0.28.1"
 tokio = { version = "1.47.1", features = ["rt", "rt-multi-thread", "sync"] }
 
 [target.wasm32-unknown-unknown.dependencies]
